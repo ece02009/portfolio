@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αναστασία Παπαθεοδώρου</title>
+    <!-- Link to the CSS file (Lab 1 will focus on styling) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section (Lab 1) -->
+    <header>
+        <!-- Placeholder image for the profile picture -->
+        <img src="20241128_182841000_iOS.jpg" alt="Anastasia" width="150">
+        <h1>Αναστασία Παπαθεοδώρου</h1>
+        <p>Software Developer</p>
+        
+    </header>
+
+    <!-- About Me Section (Lab 1) -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Είμαι Ηλεκτρολόγος Μηχανικός με εξειδίκευση στην κατεύθυνση Υπολογιστών, με πάθος για την τεχνολογία, τον προγραμματισμό και την καινοτομία. Έχω αποκτήσει βαθιά γνώση σε θέματα σχεδιασμού και ανάπτυξης λογισμικού, ενσωματωμένων συστημάτων, δικτύων και αυτοματισμών.</p>
+        <p>Η εμπειρία μου περιλαμβάνει έργα που συνδυάζουν το hardware και το software, με στόχο την επίλυση σύνθετων τεχνικών προκλήσεων. Είμαι εξοικειωμένος/η με σύγχρονες γλώσσες προγραμματισμού, εργαλεία και πλατφόρμες, ενώ παράλληλα διαθέτω ισχυρές δεξιότητες στη διαχείριση έργων και τη συνεργασία σε διεπιστημονικές ομάδες. </p>
+        <p>Με χαρακτηρίζουν η αναλυτική σκέψη, η προσοχή στη λεπτομέρεια και η διαρκής επιδίωξη της μάθησης και εξέλιξης. Στόχος μου είναι να συνεισφέρω σε τεχνολογικά έργα που προσφέρουν καινοτόμες λύσεις και βελτιώνουν την καθημερινότητα ανθρώπων και επιχειρήσεων.</p>
+    </section>
+
+    <!-- Resume Section (Lab 1) -->
+    <section id="resume">
+        <h2>Resume</h2>
+
+        <h3>Education</h3>
+        <ul>
+            <li><b>B.Sc. in Electrical and Computer Engineering</b><br>
+                Πανεπιστήμιο Δυτικής Μακεδονίας <i>(2020 – Τώρα)</i></li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+            <li><b>Προγραμματισμός:</b> Python, C, C++, Java, JavaScript, MATLAB</li>
+            <li><b>Εργαλεία Ανάπτυξης:</b> <ins>Git, GitHub</ins>, Visual Studio Code, Eclipse</li>
+            <li><b>Λογισμικά Σχεδιασμού:</b> AutoCAD, SolidWorks, KiCAD, Eagle</li>
+            <li><b>Λειτουργικά Συστήματα:</b> <ins>Linux (Ubuntu)</ins>, Windows</li>
+            <li><b>Ενσωματωμένα Συστήματα:</b> Arduino, Raspberry Pi, ESP32</li>
+            <li><b>Ανάλυση Δεδομένων:</b> NumPy, Pandas, Matplotlib</li>
+            <li><b>Δίκτυα:</b> TCP/IP, Wireshark,<ins>Socket Programming</ins></li>
+            <li><b>Σχεδιασμός Κυκλωμάτων:</b> SPICE, Multisim</li>
+            <li><b>Web Development:</b> HTML, CSS, React</li>
+        </ul>
+        
+        <h3>Experience</h3>
+        <ul>
+            <li><b>Πρακτική Άσκηση</b><br> XYZ Tech Solutions <i>(Ιούνιος 2023 – Αύγουστος 2023)</i></li>
+        </ul>
+    </section>
+
+    <!-- Projects Section (Lab 1) -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <h3>Portfolio Website</h3>
+        <p>Check out my portfolio on GitHub.</p>
+        <a href="https://github.com/ece02009" target="_blank">View on GitHub</a>
+
+    </section>
+
+    <!-- Contact Me Section (Lab 3) -->
+    <section id="contact">
+        <h3 class="h3 form-title">Contact Form</h3>
+    
+        <!-- Thank you message -->
+        <div id="thankYouMessage" style="display: none;">
+            <p>Thank you for your message! I will get back to you soon.</p>
+        </div>
+    
+        <!-- Form setup for Netlify -->
+        <form name="contactForm" method="POST" netlify netlify-honeypot="bot-field" id="contactForm" data-netlify="true">
+            <input type="hidden" name="form-name" value="contactForm">
+    
+            <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+    
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+    
+            <!-- Add the form-btn class here -->
+            <button class="form-btn" type="submit">
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+            </button>
+        </form>
+    </section>
+
+    <iframe src="https://www.pexels.com/photo/full-frame-shot-of-computer-326514/" width="600" height="400" title="Computer photo" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    <iframe src="https://www.pexels.com/video/a-computer-monitor-flashing-digital-information-2887463/" width="830" height="400" title="Computer video" frameborder="0" allowfullscreen loading="lazy"></iframe>
+
+    <!-- Footer Section (Lab 1) -->
+    <footer>
+        <p>&copy; 2024 Αναστασία Παπαθεοδώρου</p>
+        <a href="https://www.linkedin.com" target="_blank"><del>LinkedIn</del></a> |
+        <a href="https://github.com/ece02009" target="_blank">GitHub</a>
+    </footer>
+
+    <!-- Σύνδεση με το αρχείο JavaScript -->
+    <script src="formValidation.js"></script>
+</body>
+</html>
